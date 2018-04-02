@@ -14,7 +14,7 @@
 #' \deqn{p(R_{i,2}=1|Y_{i,\cdot}) = \text{logit}^{-1}(\alpha_2+\beta_2Y_{i,3}).}
 #' The vector \eqn{\beta} is specified using the \code{prob.coef} parameter,
 #' and \eqn{\alpha} is selected to ensure that the proportion of missing values
-#' in each variable is equal to the \cote{miss.coef} parameter.
+#' in each variable is equal to the \code{miss.coef} parameter.
 #' 
 #' @param samples A numeric matrix with no missing values.
 #' @param miss.coef: A numeric value or a vector of length equal to miss.nvar.
