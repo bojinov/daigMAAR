@@ -1,9 +1,20 @@
 Package: diagMAAR
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Diagnostic tests for missing always at random
+Version: 1.0.0
+Authors@R: person("Iavor", "Bojinov", email = "iav.bojinov@gmail.com", role = c("aut", "cre"))
+Description: Performs multiple tests for the missing always at random assumption
+    in multivariate data. Each of the diagnostic tests also suggest which 
+    variables are the most likely to violate the assumptions of the test. 
+    Although missing always at random is not a necessary condition to ensure 
+    validity under the Bayesian and direct-likelihood paradigms, it is 
+    sufficient, and evidence for its violation should encourage the careful 
+    statistician to conduct targeted sensitivity analyses. The package also
+    implements several missing data mechanisms which can be useful for checking
+    the performance for methods that handle missing data.
 Depends: R (>= 3.4.4)
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports: sbgcop (>= 0.975),
+    mice (>= 2.30)
+RoxygenNote: 6.0.1
