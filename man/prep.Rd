@@ -14,7 +14,7 @@ options are: cop, dtmm, ppp. See help for prep.daigtest.}
 }
 \value{
 prep A prep S3  object that contains the original data,
-the desired daigtest to use, the sample size, the number of missing
+the desired diagnostic test to use, the sample size, the number of missing
 variables, the location of the missing variables, the number of variables and
 a data set that has the missingness indicators appended.
 }
